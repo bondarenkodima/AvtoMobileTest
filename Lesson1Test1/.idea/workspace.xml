@@ -11,16 +11,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding>
+                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -92,7 +96,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548101443667" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548102100306" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/GitHubSetup.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -171,12 +175,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainClassTest_testGetClassNumber - 2019.01.21 at 22h 27m 23s.xml">
-      <configuration name="MainClassTest.testGetClassNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainClassTest_testGetClassNumber - 2019.01.21 at 22h 27m 27s.xml">
-      <configuration name="MainClassTest.testGetClassNumber" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainClassTest_testGetClassNumber - 2019.01.21 at 22h 41m 07s.xml">
       <configuration name="MainClassTest.testGetClassNumber" configurationId="JUnit" />
     </history-entry>
@@ -199,6 +197,12 @@
       <configuration name="MainClassTest.testGetClassString" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MainClassTest - 2019.01.21 at 23h 10m 31s.xml">
+      <configuration name="MainClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainClassTest - 2019.01.21 at 23h 21m 19s.xml">
+      <configuration name="MainClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainClassTest - 2019.01.21 at 23h 21m 25s.xml">
       <configuration name="MainClassTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -246,19 +250,23 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.346/MainClass.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.076/MainClass.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.005/MainClassTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
