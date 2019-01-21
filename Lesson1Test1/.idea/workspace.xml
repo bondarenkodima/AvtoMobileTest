@@ -14,11 +14,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="17">
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
               <folding>
-                <element signature="e#93#94#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -27,10 +27,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="306">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,7 +98,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548099109573" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548100435536" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/GitHubSetup.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -112,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainClassTest.testGetClassNumber">
+  <component name="RunManager" selected="JUnit.MainClassTest.testGetClassString">
     <configuration name="MainClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson1Test1" />
       <option name="PACKAGE_NAME" value="" />
@@ -132,6 +134,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainClassTest.testGetClassString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson1Test1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
+      <option name="METHOD_NAME" value="testGetClassString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainClassTest.testGetLocalNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson1Test1" />
       <option name="PACKAGE_NAME" value="" />
@@ -144,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainClassTest.testGetClassString" />
         <item itemvalue="JUnit.MainClassTest.testGetClassNumber" />
         <item itemvalue="JUnit.MainClassTest" />
         <item itemvalue="JUnit.MainClassTest.testGetLocalNumber" />
@@ -164,12 +177,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainClassTest - 2019.01.21 at 21h 58m 47s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainClassTest - 2019.01.21 at 22h 26m 57s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainClassTest - 2019.01.21 at 22h 27m 19s.xml">
       <configuration name="MainClassTest" configurationId="JUnit" />
     </history-entry>
@@ -178,6 +185,27 @@
     </history-entry>
     <history-entry file="MainClassTest_testGetClassNumber - 2019.01.21 at 22h 27m 27s.xml">
       <configuration name="MainClassTest.testGetClassNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainClassTest_testGetClassNumber - 2019.01.21 at 22h 41m 07s.xml">
+      <configuration name="MainClassTest.testGetClassNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainClassTest_testGetClassString - 2019.01.21 at 22h 41m 31s.xml">
+      <configuration name="MainClassTest.testGetClassString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainClassTest_testGetClassString - 2019.01.21 at 22h 41m 37s.xml">
+      <configuration name="MainClassTest.testGetClassString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainClassTest_testGetClassString - 2019.01.21 at 22h 41m 54s.xml">
+      <configuration name="MainClassTest.testGetClassString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainClassTest_testGetClassString - 2019.01.21 at 22h 42m 06s.xml">
+      <configuration name="MainClassTest.testGetClassString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainClassTest_testGetClassString - 2019.01.21 at 22h 51m 47s.xml">
+      <configuration name="MainClassTest.testGetClassString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainClassTest_testGetClassString - 2019.01.21 at 22h 53m 43s.xml">
+      <configuration name="MainClassTest.testGetClassString" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -277,21 +305,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="17">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
           <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
           </folding>
         </state>
       </provider>
