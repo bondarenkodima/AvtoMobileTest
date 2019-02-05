@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="61" column="10" lean-forward="true" selection-end-line="179" selection-end-column="1" />
+            <state relative-caret-position="215">
+              <caret line="127" column="48" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,12 +32,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lesson3Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="49" column="60" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="60" />
+            <state relative-caret-position="578">
+              <caret line="49" column="60" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1333#1334#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,12 +44,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lesson3Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134">
-              <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+            <state relative-caret-position="935">
+              <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lesson3Test3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+            <state relative-caret-position="1071">
+              <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,9 +84,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="34" />
-    <option name="y" value="664" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-4" />
+    <option name="y" value="12" />
     <option name="width" value="1296" />
     <option name="height" value="589" />
   </component>
@@ -99,8 +95,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,7 +121,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549315658095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549315711927" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -216,24 +212,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Lesson3Test2_firstTest - 2019.02.04 at 23h 15m 29s.xml">
-      <configuration name="Lesson3Test2.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Lesson3Test2_firstTest - 2019.02.04 at 23h 16m 52s.xml">
-      <configuration name="Lesson3Test2.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Lesson3Test2_firstTest - 2019.02.04 at 23h 17m 42s.xml">
-      <configuration name="Lesson3Test2.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Lesson3Test1 - 2019.02.04 at 23h 18m 46s.xml">
-      <configuration name="Lesson3Test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 00h 09m 12s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 00h 14m 46s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 00h 19m 06s.xml">
       <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
     </history-entry>
@@ -246,12 +224,29 @@
     <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 00h 24m 24s.xml">
       <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 00h 27m 26s.xml">
+      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 19h 16m 46s.xml">
+      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 20h 36m 33s.xml">
+      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 20h 38m 10s.xml">
+      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 20h 47m 06s.xml">
+      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 20h 48m 28s.xml">
+      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21763754" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22087379" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -260,7 +255,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.05071665" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22932746" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31201765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38257992" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,7 +263,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3296582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -288,44 +283,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="61" column="10" lean-forward="true" selection-end-line="179" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson3Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="49" column="60" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="60" />
+        <state relative-caret-position="578">
+          <caret line="49" column="60" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson3Test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        <state relative-caret-position="935">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="127" column="48" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson3Test3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+        <state relative-caret-position="1071">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
