@@ -20,32 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="127" column="48" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lesson3Test1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="49" column="60" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lesson3Test2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+            <state relative-caret-position="410">
+              <caret line="374" column="50" selection-start-line="374" selection-start-column="50" selection-end-line="374" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,12 +30,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lesson3Test3.java">
+        <entry file="file://$PROJECT_DIR$/src/Lesson4_Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+            <state relative-caret-position="1666">
+              <caret line="102" column="50" lean-forward="true" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lesson4_Test2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-35">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1502#1503#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,19 +64,28 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>elements.size</find>
+      <find>getAmountOfElements</find>
+      <find>dri</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/Lesson3Test1.java" />
         <option value="$PROJECT_DIR$/src/Lesson3Test2.java" />
         <option value="$PROJECT_DIR$/src/Lesson3Test3.java" />
+        <option value="$PROJECT_DIR$/src/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/Lesson4_Test1.java" />
+        <option value="$PROJECT_DIR$/src/Lesson4_Test2.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="y" value="12" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-5" />
+    <option name="y" value="375" />
     <option name="width" value="1296" />
     <option name="height" value="589" />
   </component>
@@ -95,8 +94,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,8 +120,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549315711927" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549819707134" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -139,50 +138,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Lesson3Test3.testCompareArticleTitle">
-    <configuration name="FirstTest.testCancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Lesson4_Test2.assertElementPresent">
+    <configuration name="FirstTest.testCheckSearchArticleInBackground" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="testCancelSearch" />
+      <option name="METHOD_NAME" value="testCheckSearchArticleInBackground" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson3Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lesson4_Test1.saveFirstArticleToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3Test1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson3Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaAppiumAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3Test2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson3Test2.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaAppiumAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3Test2" />
-      <option name="METHOD_NAME" value="firstTest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson4_Test1" />
+      <option name="METHOD_NAME" value="saveFirstArticleToMyList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson3Test3.testCompareArticleTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lesson4_Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3Test3" />
-      <option name="METHOD_NAME" value="testCompareArticleTitle" />
+      <option name="MAIN_CLASS_NAME" value="Lesson4_Test2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson4_Test2.assertElementPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Lesson4_Test2" />
+      <option name="METHOD_NAME" value="assertElementPresent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson4_Test2.testAmountOfEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Lesson4_Test2" />
+      <option name="METHOD_NAME" value="testAmountOfEmptySearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Lesson3Test3.testCompareArticleTitle" />
-        <item itemvalue="JUnit.Lesson3Test1" />
-        <item itemvalue="JUnit.Lesson3Test2.firstTest" />
-        <item itemvalue="JUnit.Lesson3Test2" />
-        <item itemvalue="JUnit.FirstTest.testCancelSearch" />
+        <item itemvalue="JUnit.Lesson4_Test2.assertElementPresent" />
+        <item itemvalue="JUnit.Lesson4_Test2.testAmountOfEmptySearch" />
+        <item itemvalue="JUnit.Lesson4_Test2" />
+        <item itemvalue="JUnit.Lesson4_Test1.saveFirstArticleToMyList" />
+        <item itemvalue="JUnit.FirstTest.testCheckSearchArticleInBackground" />
       </list>
     </recent_temporary>
   </component>
@@ -212,42 +212,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 00h 19m 06s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    <history-entry file="Lesson4_Test1_saveFirstArticleToMyList - 2019.02.10 at 18h 01m 51s.xml">
+      <configuration name="Lesson4_Test1.saveFirstArticleToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 00h 22m 00s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    <history-entry file="Lesson4_Test1_saveFirstArticleToMyList - 2019.02.10 at 18h 08m 28s.xml">
+      <configuration name="Lesson4_Test1.saveFirstArticleToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 00h 23m 30s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    <history-entry file="Lesson4_Test1_saveFirstArticleToMyList - 2019.02.10 at 18h 11m 27s.xml">
+      <configuration name="Lesson4_Test1.saveFirstArticleToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 00h 24m 24s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    <history-entry file="Lesson4_Test1_saveFirstArticleToMyList - 2019.02.10 at 18h 14m 38s.xml">
+      <configuration name="Lesson4_Test1.saveFirstArticleToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 00h 27m 26s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    <history-entry file="Lesson4_Test1_saveFirstArticleToMyList - 2019.02.10 at 18h 18m 36s.xml">
+      <configuration name="Lesson4_Test1.saveFirstArticleToMyList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 19h 16m 46s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    <history-entry file="Lesson4_Test2 - 2019.02.10 at 19h 35m 00s.xml">
+      <configuration name="Lesson4_Test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 20h 36m 33s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    <history-entry file="Lesson4_Test2 - 2019.02.10 at 19h 36m 24s.xml">
+      <configuration name="Lesson4_Test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 20h 38m 10s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    <history-entry file="Lesson4_Test2_testAmountOfEmptySearch - 2019.02.10 at 19h 38m 41s.xml">
+      <configuration name="Lesson4_Test2.testAmountOfEmptySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 20h 47m 06s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    <history-entry file="Lesson4_Test2_assertElementPresent - 2019.02.10 at 20h 21m 37s.xml">
+      <configuration name="Lesson4_Test2.assertElementPresent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Lesson3Test3_testCompareArticleTitle - 2019.02.05 at 20h 48m 28s.xml">
-      <configuration name="Lesson3Test3.testCompareArticleTitle" configurationId="JUnit" />
+    <history-entry file="Lesson4_Test2_assertElementPresent - 2019.02.10 at 20h 27m 36s.xml">
+      <configuration name="Lesson4_Test2.assertElementPresent" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22087379" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984756" visible="true" weight="0.25566342" />
+      <window_info id="Structure" order="1" sideWeight="0.5015244" side_tool="true" visible="true" weight="0.25566342" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -255,7 +256,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.05071665" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31201765" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2767365" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38257992" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,40 +284,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson3Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="49" column="60" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson3Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson3Test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lesson3Test2.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lesson3Test3.java" />
     <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="127" column="48" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="57" />
+        <state relative-caret-position="410">
+          <caret line="374" column="50" selection-start-line="374" selection-start-column="50" selection-end-line="374" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson3Test3.java">
+    <entry file="file://$PROJECT_DIR$/src/Lesson4_Test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        <state relative-caret-position="-35">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson4_Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="102" column="50" lean-forward="true" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
