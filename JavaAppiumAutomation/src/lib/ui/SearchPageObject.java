@@ -3,17 +3,20 @@ package lib.ui;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.WebElement;
 
-public class SearchPageObject extends MainPageObject {
+import java.util.List;
 
-    private static final String
-            SEARCH_INIT_ELEMENT = "xpath://*[contains(@text, 'Search Wikipedia')]",  //открытие поиска википедии
-            SEARCH_INPUT = "xpath://*[contains(@text, 'Search…')]",  //ввод текста в строку поиска
-            SEARCH_CANCEL_BUTTON = "id:org.wikipedia:id/search_close_btn", //очистка текста с поля ввода поиска
-            SEARCH_RESULT_BY_SUBSTRING_TPL = "xpath://*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='{SUBSTRING}']",   //ожидает элемент по ресурс ид и тексту из /* TEMPLATES METHODS */
-            SEARCH_RESULT_ELEMENT = "xpath://*[@resource-id='org.wikipedia:id/search_results_list']/*[@resource-id='org.wikipedia:id/page_list_item_container']",
-            SEARCH_EMPTY_RESULT_ELEMENT = "xpath://*[@text='No results found']",
-            SEARCH_EMPTY_SEARCH = "xpath://*[contains(@text, 'Search and read the free encyclopedia in your language')]", // поиск лейба Search and read the free encyclopedia in your language на странице
-            SEARCH_BY_TITLE_AND_DESCRIPTION_TPL = "xpath://*[@text='{TITLE}']/following-sibling::*[@text='{DESCRIPTION}']"; //  TEMPLATES METHODS локатор тайтл + дескрипшен
+abstract public class SearchPageObject extends MainPageObject {
+
+     protected static String
+            SEARCH_INIT_ELEMENT,  //открытие поиска википедии
+            SEARCH_INPUT,  //ввод текста в строку поиска
+            SEARCH_CANCEL_BUTTON, //очистка текста с поля ввода поиска
+            SEARCH_RESULT_BY_SUBSTRING_TPL, //ожидает элемент по ресурс ид и тексту из /* TEMPLATES METHODS */
+            SEARCH_RESULT_ELEMENT,
+            SEARCH_EMPTY_RESULT_ELEMENT,
+            SEARCH_EMPTY_SEARCH, // поиск лейба Search and read the free encyclopedia in your language на странице
+            SEARCH_RESULT_TITLE_ELEMENT,
+            SEARCH_BY_TITLE_AND_DESCRIPTION_TPL; //  TEMPLATES METHODS локатор тайтл + дескрипшен
 
     public SearchPageObject(AppiumDriver driver)
     {
@@ -41,6 +44,12 @@ public class SearchPageObject extends MainPageObject {
     public void waitForCancelButtonToAppear()   // проверяем наличие кнопки Х ЗАКРЫТИЕ
     {
         this.waitForElementPresent(SEARCH_CANCEL_BUTTON, "Cannot find search cancel button", 5);
+    }
+
+    public int checkSearchFoundSomeResults()
+    {
+        List<WebElement> arrayOfResultTitles = this.waitForAllElementsPresented(SEARCH_RESULT_TITLE_ELEMENT, "Cannot find search result title element is results", 5);
+        return arrayOfResultTitles.size();
     }
 
     public void waitForElementByTitleAndDescription(String title, String description)   // проверяем наличие тайтла и дискрипшена

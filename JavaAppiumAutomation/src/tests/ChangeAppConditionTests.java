@@ -3,6 +3,8 @@ package tests;
 import lib.CoreTestCase;
 import lib.ui.ArticlePageObject;
 import lib.ui.SearchPageObject;
+import lib.ui.factories.ArticlePageObjectFactory;
+import lib.ui.factories.SearchPageObjectFactory;
 import org.junit.Test;
 
 public class ChangeAppConditionTests extends CoreTestCase
@@ -10,13 +12,13 @@ public class ChangeAppConditionTests extends CoreTestCase
     @Test
     public void testChangeScreenOrientationOnSearchResults() // перевород устройства в ландшафтный и портретный режим
     {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
 
         SearchPageObject.initSearchInput();  //открытие поиска википедии
         SearchPageObject.typeSearchLine("Java"); //ввод текста в строку поиска
         SearchPageObject.clickByArticleWithSubString("Object-oriented programming language");  //клик по статье найденной по ресурс ид и тексту
 
-        ArticlePageObject ArticlePageObject = new ArticlePageObject(driver);
+        ArticlePageObject ArticlePageObject = ArticlePageObjectFactory.get(driver);
 
         String title_before_rotation = ArticlePageObject.getArticleTitle(); //записываем название статьи в переменнную,получаем название статьи
 
@@ -44,7 +46,7 @@ public class ChangeAppConditionTests extends CoreTestCase
     @Test
     public void testCheckSearchArticleInBackground() // сворачивание и разворачивание приложения
     {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
+        SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
 
         SearchPageObject.initSearchInput();  //открытие поиска википедии
         SearchPageObject.typeSearchLine("Java"); //ввод текста в строку поиска
